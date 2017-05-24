@@ -4,17 +4,37 @@ nav ul{
 }
 nav ul li{
   display: inline-block;
-  padding: 20px;
-  line-height: 10px;
 }
-h1{
-  color:red;
+nav ul li{
+  padding: 5px 15px;
+}
+nav ul li:hover{
+  color: #FFFFFF;
+  background-color: #82B1FF;
 }
 a{
   color: inherit;
   text-decoration-line: none;
 }
-nav ul li:hover{
-  color: white;
-  background-color: #82B1FF;
+.home-content{
+  height:500px;
+  background-image: url("../img/resort.jpg");
+  text-align: center;
+}
+
+.home-content text-content{
+  background-color:rgba(128, 203, 196, 0.6);
+}
+.contact-content{
+  text-align: center;
+}
+.accomodation-content table{
+  border-collapse: collapse;
+
+}
+.accomodation-content table, td, th {
+    border: 1px solid #ddd;
+}
+.pictures-content img{
+  width: 400px;
 }
